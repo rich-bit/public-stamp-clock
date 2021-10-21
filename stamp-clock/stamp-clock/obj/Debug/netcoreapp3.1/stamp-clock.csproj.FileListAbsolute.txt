@@ -1,0 +1,13 @@
+C:\Users\Richard\Documents\GitHub\stamp-clock\stamp-clock\stamp-clock\bin\Debug\netcoreapp3.1\stamp-clock.exe
+C:\Users\Richard\Documents\GitHub\stamp-clock\stamp-clock\stamp-clock\bin\Debug\netcoreapp3.1\stamp-clock.deps.json
+C:\Users\Richard\Documents\GitHub\stamp-clock\stamp-clock\stamp-clock\bin\Debug\netcoreapp3.1\stamp-clock.runtimeconfig.json
+C:\Users\Richard\Documents\GitHub\stamp-clock\stamp-clock\stamp-clock\bin\Debug\netcoreapp3.1\stamp-clock.runtimeconfig.dev.json
+C:\Users\Richard\Documents\GitHub\stamp-clock\stamp-clock\stamp-clock\bin\Debug\netcoreapp3.1\stamp-clock.dll
+C:\Users\Richard\Documents\GitHub\stamp-clock\stamp-clock\stamp-clock\bin\Debug\netcoreapp3.1\stamp-clock.pdb
+C:\Users\Richard\Documents\GitHub\stamp-clock\stamp-clock\stamp-clock\obj\Debug\netcoreapp3.1\stamp-clock.csprojAssemblyReference.cache
+C:\Users\Richard\Documents\GitHub\stamp-clock\stamp-clock\stamp-clock\obj\Debug\netcoreapp3.1\stamp-clock.AssemblyInfoInputs.cache
+C:\Users\Richard\Documents\GitHub\stamp-clock\stamp-clock\stamp-clock\obj\Debug\netcoreapp3.1\stamp-clock.AssemblyInfo.cs
+C:\Users\Richard\Documents\GitHub\stamp-clock\stamp-clock\stamp-clock\obj\Debug\netcoreapp3.1\stamp-clock.csproj.CoreCompileInputs.cache
+C:\Users\Richard\Documents\GitHub\stamp-clock\stamp-clock\stamp-clock\obj\Debug\netcoreapp3.1\stamp-clock.dll
+C:\Users\Richard\Documents\GitHub\stamp-clock\stamp-clock\stamp-clock\obj\Debug\netcoreapp3.1\stamp-clock.pdb
+C:\Users\Richard\Documents\GitHub\stamp-clock\stamp-clock\stamp-clock\obj\Debug\netcoreapp3.1\stamp-clock.genruntimeconfig.cache
