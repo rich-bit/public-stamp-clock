@@ -10,7 +10,7 @@ namespace TestFileRead
     {
         public static void Main(string[] args)
         {
-            // This will get the current WORKING directory (i.e. \bin\Debug)
+            // This will get the current WORKING directory (i.e. \bin\Debug)//Ty stackoverflow
             string workingDirectory = Environment.CurrentDirectory;
 
             // This will get the current PROJECT directory
