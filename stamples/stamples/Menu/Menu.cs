@@ -57,11 +57,8 @@ namespace stamples
                     currentMenuState = MenuState.menu;
                     break;
                 case MenuState.viewTimeCard:
-                    if (Settings.data != null)
-                    {
-                        new Fileread();
-                        new PresentTimeSheet();
-                    }
+                    new Fileread();
+                    new PresentTimeSheet();
                     currentMenuState = MenuState.menu;
                     break;
                 case MenuState.settings:

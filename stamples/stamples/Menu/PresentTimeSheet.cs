@@ -15,6 +15,8 @@ namespace stamples
             int j = 0;
             PrintProject(projects[j], Settings.data);
 
+
+
             ConsoleKey choice;
             do
             {
@@ -39,7 +41,7 @@ namespace stamples
                         Console.WriteLine("Exiting...");
                         break;
                 }
-            } while (choice != ConsoleKey.Escape);
+            } while (choice != ConsoleKey.Escape);            
         }
         private void CountProjects(List<StampleData> data)
         {
