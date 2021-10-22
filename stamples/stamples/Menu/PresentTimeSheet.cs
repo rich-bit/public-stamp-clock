@@ -80,11 +80,11 @@ namespace stamples
                     TimeSpan result = t2 - t1;
                     totalWorkedTime += result;
 
-                    Console.WriteLine($"\t{item.punchIn} \t{item.punchOut} \t{Math.Round(result.TotalHours, 2)} hours \t\t{item.description}");
+                    Console.WriteLine($"\t{item.punchIn} \t{item.punchOut} \t{Math.Round(result.TotalHours, 2)} hour[s] \t\t{item.description}");
                 }
             }
             Console.WriteLine("_________________________________________________________________________________________________________");
-            Console.WriteLine($"Total: \t\t\t\t\t\t\t{Math.Round(totalWorkedTime.TotalHours, 2)} hours");
+            Console.WriteLine($"Total: \t\t\t\t\t\t\t{Math.Round(totalWorkedTime.TotalHours, 2)} hour[s]");
         }
     }
 }

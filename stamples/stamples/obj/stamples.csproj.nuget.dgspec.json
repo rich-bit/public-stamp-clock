@@ -1,32 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/Users/richardahl/Documents/GitHub/stamp-clock/stamples/stamples/stamples.csproj": {}
+    "C:\\Users\\Spellabb2018\\Documents\\GitHub\\public-stamp-clock\\stamples\\stamples\\stamples.csproj": {}
   },
   "projects": {
-    "/Users/richardahl/Documents/GitHub/stamp-clock/stamples/stamples/stamples.csproj": {
+    "C:\\Users\\Spellabb2018\\Documents\\GitHub\\public-stamp-clock\\stamples\\stamples\\stamples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/richardahl/Documents/GitHub/stamp-clock/stamples/stamples/stamples.csproj",
+        "projectUniqueName": "C:\\Users\\Spellabb2018\\Documents\\GitHub\\public-stamp-clock\\stamples\\stamples\\stamples.csproj",
         "projectName": "stamples",
-        "projectPath": "/Users/richardahl/Documents/GitHub/stamp-clock/stamples/stamples/stamples.csproj",
-        "packagesPath": "/Users/richardahl/.nuget/packages/",
-        "outputPath": "/Users/richardahl/Documents/GitHub/stamp-clock/stamples/stamples/obj/",
+        "projectPath": "C:\\Users\\Spellabb2018\\Documents\\GitHub\\public-stamp-clock\\stamples\\stamples\\stamples.csproj",
+        "packagesPath": "C:\\Users\\Spellabb2018\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Spellabb2018\\Documents\\GitHub\\public-stamp-clock\\stamples\\stamples\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/richardahl/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Spellabb2018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -53,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

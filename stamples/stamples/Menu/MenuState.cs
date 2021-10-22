@@ -9,6 +9,7 @@ namespace stamples
         menu,        
         punchin,
         punchout,
+        addtime,
         viewTimeCard,
         settings,
         reset,

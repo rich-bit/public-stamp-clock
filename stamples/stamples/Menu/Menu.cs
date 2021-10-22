@@ -10,14 +10,21 @@ namespace stamples
             switch (currentMenuState)
             {
                 case MenuState.menu:
+                    new Fileread();
                     Console.Clear();
+
+                    Console.WriteLine("Please don't use these words/symbols in program:\npunch-in punch-out project description ;\nTry to keep things simple.");
+                    Console.WriteLine();
+                    Console.WriteLine();
+
                     Console.WriteLine("[1]: Punch in");
                     Console.WriteLine("[2]: Punch out");
-                    Console.WriteLine("[3]: View Time-Sheet");
-                    Console.WriteLine("[4]: Settings");
-                    Console.WriteLine("[5]: Reset program");
-                    Console.WriteLine("[6]: Quit");
-                    Console.Write("Make choice + enter: ");
+                    Console.WriteLine("[3]: Add worked time");
+                    Console.WriteLine("[4]: View Time-Sheet");
+                    Console.WriteLine("[5]: Settings");
+                    Console.WriteLine("[6]: Reset program");
+                    Console.WriteLine("[7]: Quit");
+                    Console.Write("Make choice + enter: ");                    
                     int choice = 0;
                     try
                     {
@@ -33,12 +40,14 @@ namespace stamples
                     else if (choice == 2)
                         currentMenuState = MenuState.punchout;
                     else if (choice == 3)
-                        currentMenuState = MenuState.viewTimeCard;
+                        currentMenuState = MenuState.addtime;
                     else if (choice == 4)
-                        currentMenuState = MenuState.settings;
+                        currentMenuState = MenuState.viewTimeCard;
                     else if (choice == 5)
-                        currentMenuState = MenuState.reset;
+                        currentMenuState = MenuState.settings;
                     else if (choice == 6)
+                        currentMenuState = MenuState.reset;
+                    else if (choice == 7)
                         currentMenuState = MenuState.quit;
                     else
                         draw = false;
@@ -56,9 +65,33 @@ namespace stamples
                     new Fileread().WriteToFile();
                     currentMenuState = MenuState.menu;
                     break;
+                case MenuState.addtime:
+                    try
+                    {
+                        Console.Write("Time started [YYYY-MM-DD HH:MM:SS]: ");
+                        Settings.currentPunchInTime = Convert.ToDateTime(Console.ReadLine());
+                        Console.Write("Project: ");
+                        Settings.currentProject = Console.ReadLine();
+                        Console.Write("Time ended [YYYY-MM-DD HH:MM:SS]: ");
+                        Settings.currentPunchOutTime = Convert.ToDateTime(Console.ReadLine());
+                        Console.Write("Describe work: ");
+                        Settings.currentDescription = Console.ReadLine();
+                        new Fileread().WriteToFile();
+                        currentMenuState = MenuState.menu;
+                    }
+                    catch (Exception e)
+                    {
+                        System.Diagnostics.Debug.WriteLine(e.ToString());
+                        Console.WriteLine("Did not work. Restart program...");
+                        draw = false;
+                    }
+                    break;
                 case MenuState.viewTimeCard:
-                    new Fileread();
-                    new PresentTimeSheet();
+                    if (Settings.data.Count > 0)
+                    {
+                        new Fileread();
+                        new PresentTimeSheet();
+                    }
                     currentMenuState = MenuState.menu;
                     break;
                 case MenuState.settings:

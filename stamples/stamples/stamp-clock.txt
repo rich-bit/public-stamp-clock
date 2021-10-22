@@ -1,6 +1,6 @@
 
+punch-in;2021-10-21 20:00:00;punch-out;2021-10-22 01:30:00;project;public-stamp-clock;description;programmed the clock;
+punch-in;2021-10-22 14:00:00;punch-out;2021-10-22 16:00:00;project;c#-network;description;researching C# monogame networking potentials via google;
 
-punch-in;2021-10-22 02:05:47;punch-out;2021-10-22 02:05:51;project;asd;description;asd;id;0;
+punch-in;2021-10-22 16:00:00;punch-out;2021-10-22 17:00:00;project;public-stamp-clock;description;Finilizing the program. its done now for my purposes;
 
-
-punch-in;10/22/2021 4:20:01 PM;punch-out;10/22/2021 4:20:16 PM;project;testmac;description;testing macos;id;0;

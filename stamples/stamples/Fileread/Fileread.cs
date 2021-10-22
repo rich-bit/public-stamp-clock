@@ -19,21 +19,21 @@ namespace stamples
             string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
 
             List<String> myStringList = File.ReadAllLines(projectDirectory + "/stamp-clock.txt").ToList();
+            myStringList.RemoveAll(s => string.IsNullOrWhiteSpace(s));//ty stackoverflow
             Settings.data = new List<StampleData>();
 
             foreach (string item in myStringList)
             {
                 try
                 {
-                    string[] subs = item.Split(new[] { "punch-in", ";", "punch-out", ";", "project", ";", "description", ";", "id", ";" }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] subs = item.Split(new[] { "punch-in", ";", "punch-out", ";", "project", ";", "description", ";" }, StringSplitOptions.RemoveEmptyEntries);
 
                     DateTime readPunchIn = Convert.ToDateTime(subs[0]);
                     DateTime readPunchOut = Convert.ToDateTime(subs[1]);
                     string readProject = subs[2];
-                    string readDescription = subs[3];
-                    int readId = Convert.ToInt32(subs[4]);
+                    string readDescription = subs[3];                    
 
-                    Settings.data.Add(new StampleData(readPunchIn, readPunchOut, readProject, readDescription, readId));
+                    Settings.data.Add(new StampleData(readPunchIn, readPunchOut, readProject, readDescription));
                 }
                 catch (Exception e)
                 {
@@ -46,6 +46,7 @@ namespace stamples
             {
                 Console.WriteLine($"Warning, not all data was read by program. {dataNotRead} lines from timesheet failed.");
                 Console.WriteLine("Check file in project folder please.");
+                Console.ReadLine();
             }
             else
             {
@@ -60,9 +61,8 @@ namespace stamples
             {
 
                 using (StreamWriter sw = File.AppendText(projectDirectory + "/stamp-clock.txt"))
-                {
-                    sw.WriteLine("\n");
-                    sw.WriteLine($"punch-in;{Settings.currentPunchInTime};punch-out;{Settings.currentPunchOutTime};project;{Settings.currentProject};description;{Settings.currentDescription};id;0;");
+                {                    
+                    sw.WriteLine($"punch-in;{Settings.currentPunchInTime};punch-out;{Settings.currentPunchOutTime};project;{Settings.currentProject};description;{Settings.currentDescription};\n");
                 }
             }
             catch (Exception e)
@@ -75,8 +75,14 @@ namespace stamples
         {
             // This will get the current PROJECT directory
             string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
-
-            File.Delete(projectDirectory + "/stamp-clock.txt");
+            try
+            {
+                File.Delete(projectDirectory + "/stamp-clock.txt");
+            }
+            catch (Exception e)
+            {
+                System.Diagnostics.Debug.WriteLine(e.ToString());
+            }
             File.Create(projectDirectory + "/stamp-clock.txt");
         }
     }
