@@ -1,3 +1,6 @@
 
 
 punch-in;2021-10-22 02:05:47;punch-out;2021-10-22 02:05:51;project;asd;description;asd;id;0;
+
+
+punch-in;10/22/2021 4:20:01 PM;punch-out;10/22/2021 4:20:16 PM;project;testmac;description;testing macos;id;0;
