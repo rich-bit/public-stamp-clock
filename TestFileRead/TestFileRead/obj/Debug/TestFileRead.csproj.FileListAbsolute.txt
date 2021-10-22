@@ -1,6 +1,0 @@
-/Users/richardahl/Documents/GitHub/stamp-clock/TestFileRead/TestFileRead/bin/Debug/TestFileRead.exe
-/Users/richardahl/Documents/GitHub/stamp-clock/TestFileRead/TestFileRead/bin/Debug/TestFileRead.pdb
-/Users/richardahl/Documents/GitHub/stamp-clock/TestFileRead/TestFileRead/obj/Debug/TestFileRead.csprojAssemblyReference.cache
-/Users/richardahl/Documents/GitHub/stamp-clock/TestFileRead/TestFileRead/obj/Debug/TestFileRead.csproj.CoreCompileInputs.cache
-/Users/richardahl/Documents/GitHub/stamp-clock/TestFileRead/TestFileRead/obj/Debug/TestFileRead.exe
-/Users/richardahl/Documents/GitHub/stamp-clock/TestFileRead/TestFileRead/obj/Debug/TestFileRead.pdb
