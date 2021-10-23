@@ -10,7 +10,7 @@ namespace stamples
         public PresentTimeSheet()
         {
             Console.Clear();
-            CountProjects(Settings.data);           
+            projects = Settings.removeDuplicates();
 
             int j = 0;
             PrintProject(projects[j], Settings.data);
@@ -39,23 +39,9 @@ namespace stamples
                         break;
                     case ConsoleKey.Escape:
                         Console.WriteLine("Exiting...");
-                        break;
+                        break;//Stackoverflow ty
                 }
             } while (choice != ConsoleKey.Escape);            
-        }
-        private void CountProjects(List<StampleData> data)
-        {
-            string currentProject = data[0].project;
-            projects.Add(currentProject);
-
-            for (int i = 0; i < data.Count; i++)
-            {
-                if (data[i].project != currentProject)
-                {
-                    currentProject = data[i].project;
-                    projects.Add(currentProject);
-                }
-            }
         }
         private void PrintProject(string project, List<StampleData> data)
         {

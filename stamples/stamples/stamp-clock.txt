@@ -4,3 +4,5 @@ punch-in;2021-10-22 14:00:00;punch-out;2021-10-22 16:00:00;project;c#-network;de
 
 punch-in;2021-10-22 16:00:00;punch-out;2021-10-22 17:00:00;project;public-stamp-clock;description;Finilizing the program. its done now for my purposes;
 
+punch-in;2021-10-23 23:40:39;punch-out;2021-10-23 23:50:25;project;public-stamp-clock;description;Added proper sorting to data + finilizing;
+

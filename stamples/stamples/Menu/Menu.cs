@@ -1,30 +1,33 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace stamples
 {
     class Menu
     {
-        public bool PunchedIn { get; set; }
         public Menu(ref bool draw, ref MenuState currentMenuState)
         {
             switch (currentMenuState)
             {
                 case MenuState.menu:
                     new Fileread();
+                    Settings.data = Settings.data.OrderBy(p => p.punchIn).ToList();//Ty stackoverflow. Sorts by punch-in date
+
                     Console.Clear();
 
-                    Console.WriteLine("Please don't use these words/symbols in program:\npunch-in punch-out project description ;\nTry to keep things simple.");
+                    Console.WriteLine("Please don't use these words/symbols in program:\npunch-in punch-out project description ;\nTry to keep things simple. Check .txt file to fix errors.");
                     Console.WriteLine();
                     Console.WriteLine();
 
                     Console.WriteLine("[1]: Punch in");
                     Console.WriteLine("[2]: Punch out");
                     Console.WriteLine("[3]: Add worked time");
-                    Console.WriteLine("[4]: View Time-Sheet");
-                    Console.WriteLine("[5]: Settings");
-                    Console.WriteLine("[6]: Reset program");
+                    Console.WriteLine("[4]: View TimeSheet");
+                    Console.WriteLine("[5]: Settings(Empty atm)");
+                    Console.WriteLine("[6]: Reset TimeSheet");
                     Console.WriteLine("[7]: Quit");
-                    Console.Write("Make choice + enter: ");                    
+                    Console.Write("Make choice + enter: ");
                     int choice = 0;
                     try
                     {
@@ -53,16 +56,26 @@ namespace stamples
                         draw = false;
                     break;
                 case MenuState.punchin:
-                    Console.Write("Punch in to project: ");
+                    Console.Write("Projects: ");
+                    List<string> projects = Settings.removeDuplicates();
+                    for (int i = 0; i < projects.Count; i++)
+                    {
+                        Console.Write($" - {Settings.data[i].project} - ");
+                    }
+                    Console.Write("\nPunch in to project: ");
                     Settings.currentProject = Console.ReadLine();
                     Settings.currentPunchInTime = DateTime.Now;
                     currentMenuState = MenuState.menu;
                     break;
                 case MenuState.punchout:
-                    Console.Write("Punch out...Describe your work: ");
-                    Settings.currentDescription = Console.ReadLine();
-                    Settings.currentPunchOutTime = DateTime.Now;
-                    new Fileread().WriteToFile();
+                    if (Settings.currentPunchInTime != DateTime.MinValue)
+                    {
+                        Console.Write("Punch out...Describe your work: ");
+                        Settings.currentDescription = Console.ReadLine();
+                        Settings.currentPunchOutTime = DateTime.Now;
+                        new Fileread().WriteToFile();
+                    }
+                    else { Console.Write("You have not punched in...Press enter."); Console.ReadLine(); }
                     currentMenuState = MenuState.menu;
                     break;
                 case MenuState.addtime:
@@ -89,7 +102,7 @@ namespace stamples
                 case MenuState.viewTimeCard:
                     if (Settings.data.Count > 0)
                     {
-                        new Fileread();
+                        //new Fileread();
                         new PresentTimeSheet();
                     }
                     currentMenuState = MenuState.menu;

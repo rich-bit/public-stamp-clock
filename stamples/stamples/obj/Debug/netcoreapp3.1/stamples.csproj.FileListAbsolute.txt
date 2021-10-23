@@ -48,3 +48,16 @@ C:/Users/Spellabb2018/Documents/GitHub/public-stamp-clock/stamples/stamples/obj/
 /Users/richardahl/Documents/GitHub/public-stamp-clock/stamples/stamples/obj/Debug/netcoreapp3.1/stamples.dll
 /Users/richardahl/Documents/GitHub/public-stamp-clock/stamples/stamples/obj/Debug/netcoreapp3.1/stamples.pdb
 /Users/richardahl/Documents/GitHub/public-stamp-clock/stamples/stamples/obj/Debug/netcoreapp3.1/stamples.genruntimeconfig.cache
+C:\Users\Richard\Documents\GitHub\public-stamp-clock\stamples\stamples\bin\Debug\netcoreapp3.1\stamples.exe
+C:\Users\Richard\Documents\GitHub\public-stamp-clock\stamples\stamples\bin\Debug\netcoreapp3.1\stamples.deps.json
+C:\Users\Richard\Documents\GitHub\public-stamp-clock\stamples\stamples\bin\Debug\netcoreapp3.1\stamples.runtimeconfig.json
+C:\Users\Richard\Documents\GitHub\public-stamp-clock\stamples\stamples\bin\Debug\netcoreapp3.1\stamples.runtimeconfig.dev.json
+C:\Users\Richard\Documents\GitHub\public-stamp-clock\stamples\stamples\bin\Debug\netcoreapp3.1\stamples.dll
+C:\Users\Richard\Documents\GitHub\public-stamp-clock\stamples\stamples\bin\Debug\netcoreapp3.1\stamples.pdb
+C:\Users\Richard\Documents\GitHub\public-stamp-clock\stamples\stamples\obj\Debug\netcoreapp3.1\stamples.csprojAssemblyReference.cache
+C:\Users\Richard\Documents\GitHub\public-stamp-clock\stamples\stamples\obj\Debug\netcoreapp3.1\stamples.AssemblyInfoInputs.cache
+C:\Users\Richard\Documents\GitHub\public-stamp-clock\stamples\stamples\obj\Debug\netcoreapp3.1\stamples.AssemblyInfo.cs
+C:\Users\Richard\Documents\GitHub\public-stamp-clock\stamples\stamples\obj\Debug\netcoreapp3.1\stamples.csproj.CoreCompileInputs.cache
+C:\Users\Richard\Documents\GitHub\public-stamp-clock\stamples\stamples\obj\Debug\netcoreapp3.1\stamples.dll
+C:\Users\Richard\Documents\GitHub\public-stamp-clock\stamples\stamples\obj\Debug\netcoreapp3.1\stamples.pdb
+C:\Users\Richard\Documents\GitHub\public-stamp-clock\stamples\stamples\obj\Debug\netcoreapp3.1\stamples.genruntimeconfig.cache

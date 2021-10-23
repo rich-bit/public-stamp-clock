@@ -8,17 +8,10 @@ namespace stamples
 {
     class Fileread
     {
-        // This will get the current WORKING directory (i.e. \bin\Debug) // -- Ty stackoverflow
-        string workingDirectory = Environment.CurrentDirectory;
-
         int dataNotRead = 0;
-
         public Fileread()
         {
-            // This will get the current PROJECT directory
-            string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
-
-            List<String> myStringList = File.ReadAllLines(projectDirectory + "/stamp-clock.txt").ToList();
+            List<String> myStringList = File.ReadAllLines(Settings.projectDirectory + "/stamp-clock.txt").ToList();
             myStringList.RemoveAll(s => string.IsNullOrWhiteSpace(s));//ty stackoverflow
             Settings.data = new List<StampleData>();
 
@@ -55,12 +48,10 @@ namespace stamples
         }
         public void WriteToFile()
         {
-            // This will get the current PROJECT directory
-            string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
             try
             {
 
-                using (StreamWriter sw = File.AppendText(projectDirectory + "/stamp-clock.txt"))
+                using (StreamWriter sw = File.AppendText(Settings.projectDirectory + "/stamp-clock.txt"))
                 {                    
                     sw.WriteLine($"punch-in;{Settings.currentPunchInTime};punch-out;{Settings.currentPunchOutTime};project;{Settings.currentProject};description;{Settings.currentDescription};\n");
                 }
@@ -68,22 +59,21 @@ namespace stamples
             catch (Exception e)
             {
                 System.Diagnostics.Debug.WriteLine(e.ToString());
-                Console.WriteLine("Error when writing file");
+                Console.WriteLine("Error when writing file. Press enter.");
+                Console.ReadLine();
             }
         }
         public void ResetFile()
         {
-            // This will get the current PROJECT directory
-            string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
             try
             {
-                File.Delete(projectDirectory + "/stamp-clock.txt");
+                File.Delete(Settings.projectDirectory + "/stamp-clock.txt");
             }
             catch (Exception e)
             {
                 System.Diagnostics.Debug.WriteLine(e.ToString());
             }
-            File.Create(projectDirectory + "/stamp-clock.txt");
+            File.Create(Settings.projectDirectory + "/stamp-clock.txt");
         }
     }
 }
