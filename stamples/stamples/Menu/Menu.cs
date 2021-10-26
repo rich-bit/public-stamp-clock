@@ -56,12 +56,7 @@ namespace stamples
                         draw = false;
                     break;
                 case MenuState.punchin:
-                    Console.Write("Projects: ");
-                    List<string> projects = Settings.removeDuplicates();
-                    for (int i = 0; i < projects.Count; i++)
-                    {
-                        Console.Write($" - {Settings.data[i].project} - ");
-                    }
+                    PrintProjects();
                     Console.Write("\nPunch in to project: ");
                     Settings.currentProject = Console.ReadLine();
                     Settings.currentPunchInTime = DateTime.Now;
@@ -81,6 +76,8 @@ namespace stamples
                 case MenuState.addtime:
                     try
                     {
+                        PrintProjects();
+                        Console.WriteLine();
                         Console.Write("Time started [YYYY-MM-DD HH:MM:SS]: ");
                         Settings.currentPunchInTime = Convert.ToDateTime(Console.ReadLine());
                         Console.Write("Project: ");
@@ -122,6 +119,20 @@ namespace stamples
                 case MenuState.quit:
                     draw = false;
                     break;
+            }
+        }
+
+        private static void PrintProjects()
+        {
+            Console.Write("Projects: ");
+            List<string> projects = Settings.removeDuplicates();
+            for (int i = 0; i < projects.Count; i++)
+            {
+                Console.Write($"{Settings.data[i].project}");
+                if(i != projects.Count - 1)
+                {
+                    Console.Write(", ");
+                }
             }
         }
     }
