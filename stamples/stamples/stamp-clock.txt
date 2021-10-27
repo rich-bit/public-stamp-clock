@@ -10,3 +10,9 @@ punch-in;2021-10-26 14:10:00;punch-out;2021-10-26 15:10:00;project;c#-network;de
 
 punch-in;2021-10-26 19:00:00;punch-out;2021-10-26 20:19:00;project;c#-network;description;additional supervision with Sergei, plan, time disposal etc;
 
+punch-in;2021-10-27 14:25:00;punch-out;2021-10-27 15:25:00;project;c#-network;description;Additional supervision/planning with supervisor;
+
+punch-in;2021-10-27 19:37:15;punch-out;2021-10-27 21:09:12;project;c#-network;description;Connecting netsocket with streaem;
+
+punch-in;2021-10-27 21:40:35;punch-out;2021-10-28 00:16:25;project;c#-network;description;Experimental network-modul created :)!! Server-strings has protection from users.;
+
