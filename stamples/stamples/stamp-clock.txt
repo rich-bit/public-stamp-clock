@@ -16,3 +16,27 @@ punch-in;2021-10-27 19:37:15;punch-out;2021-10-27 21:09:12;project;c#-network;de
 
 punch-in;2021-10-27 21:40:35;punch-out;2021-10-28 00:16:25;project;c#-network;description;Experimental network-modul created :)!! Server-strings has protection from users.;
 
+punch-in;2021-10-30 14:01:27;punch-out;2021-10-30 14:51:56;project;c#-network;description;Research. How to handle user-to-user data.;
+
+punch-in;2021-10-30 17:02:36;punch-out;2021-10-30 17:16:57;project;c#-network;description;Creating private send function;
+
+punch-in;2021-10-30 17:32:04;punch-out;2021-10-30 19:30:42;project;c#-network;description;private send implemented;
+
+punch-in;2021-10-30 20:27:17;punch-out;2021-10-30 21:33:47;project;c#-network;description;new version of program;
+
+punch-in;2021-10-30 23:22:30;punch-out;2021-10-31 00:08:25;project;c#-network;description;new program;
+
+punch-in;2021-10-31 14:05:48;punch-out;2021-10-31 16:26:16;project;c#-network;description;new program;
+
+punch-in;2021-10-31 18:08:20;punch-out;2021-10-31 19:49:40;project;c#-network;description;new program done;
+
+punch-in;2021-10-31 22:40:35;punch-out;2021-11-01 01:24:03;project;c#-network;description;v3 of program started;
+
+punch-in;2021-11-01 20:31:57;punch-out;2021-11-01 21:27:06;project;c#-network;description;program v3 done. Have to figure out parse from server now..;
+
+punch-in;2021-11-02 00:16:46;punch-out;2021-11-02 03:12:23;project;c#-network;description;parsing data from server works. ;
+
+punch-in;2021-11-02 12:49:39;punch-out;2021-11-02 13:40:45;project;c#-network;description;parser improved;
+
+punch-in;2021-11-02 17:53:07;punch-out;2021-11-02 17:59:37;project;c#-network;description;V3 of program finished. V4 will have further improvements/abstraction;
+
