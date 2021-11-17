@@ -38,5 +38,67 @@ punch-in;2021-11-02 00:16:46;punch-out;2021-11-02 03:12:23;project;c#-network;de
 
 punch-in;2021-11-02 12:49:39;punch-out;2021-11-02 13:40:45;project;c#-network;description;parser improved;
 
-punch-in;2021-11-02 17:53:07;punch-out;2021-11-02 17:59:37;project;c#-network;description;V3 of program finished. V4 will have further improvements/abstraction;
+punch-in;2021-11-02 17:53:07;punch-out;2021-11-02 17:59:37;project;c#-network;description;V3 of program finished. V4 will have further improvements/abstractions;
+
+punch-in;2021-11-02 21:00:59;punch-out;2021-11-02 21:25:56;project;c#-network;description;program v4 started;
+
+punch-in;2021-11-02 23:17:55;punch-out;2021-11-03 00:12:35;project;c#-network;description;program v4;
+
+punch-in;2021-11-04 15:00:00;punch-out;2021-11-04 16:00:00;project;c#-network;description;Supervision with Mia P.;
+
+punch-in;2021-11-05 20:47:14;punch-out;2021-11-05 23:24:14;project;c#-network;description;created Monogame Chat interface. Will implement in net-program.;
+
+punch-in;2021-11-05 23:35:45;punch-out;2021-11-06 00:01:53;project;c#-network;description;added input type to chat (as a box under chat);
+
+punch-in;2021-11-06 18:34:56;punch-out;2021-11-06 20:39:45;project;c#-network;description;fixed monogame char inputs (to chat) (+ handle inputs that crash);
+
+punch-in;2021-11-08 19:34:11;punch-out;2021-11-08 21:23:13;project;c#-network;description;Improved monogame read from keyboard. Implemented in chat. Next is toss it to netprogram;
+
+punch-in;2021-11-08 22:02:21;punch-out;2021-11-09 00:25:57;project;c#-network;description;chat implemented and works. Creating hashmap serverside for unique IDs for privatechat;
+
+punch-in;2021-11-09 12:00:00;punch-out;2021-11-09 13:00:00;project;c#-network;description;added interpretation from server client IDs on client-side of things.;
+
+punch-in;2021-11-09 19:06:49;punch-out;2021-11-09 20:15:06;project;c#-network;description;private chat implemented. The program needs further sorting amongst classes + more abstractions;
+
+punch-in;2021-11-10 00:50:31;punch-out;2021-11-10 02:52:34;project;c#-network;description;multiple user-login enabled. Works with chat and all. NExt: Ships pos;
+
+punch-in;2021-11-10 09:00:00;punch-out;2021-11-10 09:40:00;project;c#-network;description;testing private chat/chat...some packages get lost in transit and this is a problem.;
+
+punch-in;2021-11-10 21:44:20;punch-out;2021-11-10 21:44:59;project;c#-network;description;didnt work, realize i have to eat;
+
+punch-in;2021-11-10 21:56:25;punch-out;2021-11-10 23:28:05;project;c#-network;description;info about ships is beeing sent. The server is incredibly busy i can tell. Even crashes. V5 coming;
+
+punch-in;2021-11-11 23:14:09;punch-out;2021-11-12 01:15:36;project;c#-network;description;Version 5 started. Im reconstructing the program. It is going to be more carefull with packages send/recieved. Atm to much sent/recieved.;
+
+punch-in;2021-11-12 02:52:24;punch-out;2021-11-12 07:11:57;project;c#-network;description;restructured packaging. V5 coming;
+
+punch-in;2021-11-12 08:04:35;punch-out;2021-11-12 09:07:41;project;c#-network;description;was hoping to have a better working version...lags and kicks are a issue...maybe with some tuning..;
+
+punch-in;2021-11-12 17:22:47;punch-out;2021-11-12 18:22:39;project;c#-network;description;taking a break. works better;
+
+punch-in;2021-11-12 23:47:54;punch-out;2021-11-12 23:52:12;project;c#-network;description;kick issue fixed. Lag issues are persistant. V6 will be in monogame;
+
+punch-in;2021-11-13 01:42:22;punch-out;2021-11-13 02:18:14;project;c#-network;description;v6 started;
+
+punch-in;2021-11-13 02:43:24;punch-out;2021-11-13 04:37:29;project;c#-network;description;monogame server version did not fix lag issue;
+
+punch-in;2021-11-14 04:24:37;punch-out;2021-11-14 05:34:08;project;c#-network;description;IM ONTO SOMETHING;
+
+punch-in;2021-11-15 08:36:15;punch-out;2021-11-15 09:43:02;project;c#-network;description;re-writing program with 1 stream per package;
+
+punch-in;2021-11-15 19:50:00;punch-out;2021-11-15 21:07:00;project;c#-network;description;I successfully attach a cluster of packages to each client now :) <3;
+
+punch-in;2021-11-16 03:36:38;punch-out;2021-11-16 06:24:22;project;c#-network;description;not there yet;
+
+punch-in;2021-11-16 09:02:40;punch-out;2021-11-16 10:09:30;project;c#-network;description;lite bättre nu;
+
+punch-in;2021-11-17 02:00:31;punch-out;2021-11-17 03:03:27;project;c#-network;description;new program i have a few problems;
+
+punch-in;2021-11-17 03:11:43;punch-out;2021-11-17 04:10:25;project;c#-network;description;package-cluster-problem = SOLVED. I is happy;
+
+punch-in;2021-11-17 04:34:37;punch-out;2021-11-17 04:46:01;project;c#-network;description;fixed some more;
+
+punch-in;2021-11-17 07:38:32;punch-out;2021-11-17 10:22:11;project;c#-network;description;trying to parse new packages;
+
+punch-in;2021-11-17 11:01:15;punch-out;2021-11-17 11:31:01;project;c#-network;description;goin to school and doing this there;
 

@@ -15,8 +15,6 @@ namespace stamples
             int j = 0;
             PrintProject(projects[j], Settings.data);
 
-
-
             ConsoleKey choice;
             do
             {
