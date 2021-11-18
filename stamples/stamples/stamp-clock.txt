@@ -104,3 +104,5 @@ punch-in;2021-11-17 11:01:15;punch-out;2021-11-17 11:31:01;project;c#-network;de
 
 punch-in;2021-11-17 12:29:09;punch-out;2021-11-17 15:13:15;project;c#-network;description;from spellabbet: Drawing from the new channels now. Working better. Ships share channel = lags. Can fix i think;
 
+punch-in;2021-11-18 11:16:43;punch-out;2021-11-18 17:56:51;project;c#-network;description;lots of work done. separate channels for ships and everything else (if you want)= works perfectly. private chat, chat fixed also...;
+
