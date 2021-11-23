@@ -110,3 +110,5 @@ punch-in;2021-11-18 19:30:00;punch-out;2021-11-18 20:10:00;project;c#-network;de
 
 punch-in;2021-11-19 07:50:38;punch-out;2021-11-19 09:48:07;project;c#-network;description;fixed a few bugs in code...next: smooth values from server i hope;
 
+punch-in;2021-11-19 14:11:40;punch-out;2021-11-19 15:45:15;project;c#-network;description;fixed ping, overall tampering with program. will have to remake packagemanager...;
+
