@@ -112,3 +112,5 @@ punch-in;2021-11-19 07:50:38;punch-out;2021-11-19 09:48:07;project;c#-network;de
 
 punch-in;2021-11-19 14:11:40;punch-out;2021-11-19 15:45:15;project;c#-network;description;fixed ping, overall tampering with program. will have to remake packagemanager...;
 
+punch-in;2021-11-23 13:08:13;punch-out;2021-11-23 14:41:37;project;c#-network;description;testing MS ping class + switchint project to UDP protocol;
+
