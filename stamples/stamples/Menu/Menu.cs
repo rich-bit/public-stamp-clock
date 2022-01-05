@@ -128,7 +128,7 @@ namespace stamples
             List<string> projects = Settings.removeDuplicates();
             for (int i = 0; i < projects.Count; i++)
             {
-                Console.Write($"{Settings.data[i].project}");
+                Console.Write($"{projects[i]}");
                 if(i != projects.Count - 1)
                 {
                     Console.Write(", ");

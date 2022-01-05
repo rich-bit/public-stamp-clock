@@ -112,5 +112,135 @@ punch-in;2021-11-19 07:50:38;punch-out;2021-11-19 09:48:07;project;c#-network;de
 
 punch-in;2021-11-19 14:11:40;punch-out;2021-11-19 15:45:15;project;c#-network;description;fixed ping, overall tampering with program. will have to remake packagemanager...;
 
-punch-in;2021-11-23 13:08:13;punch-out;2021-11-23 14:41:37;project;c#-network;description;testing MS ping class + switchint project to UDP protocol;
+punch-in;2021-11-23 13:08:13;punch-out;2021-11-23 14:41:37;project;c#-network;description;testing MS ping class + switchint program to UDP protocol;
+
+punch-in;2021-11-23 16:00:00;punch-out;2021-11-23 17:50:00;project;c#-network;description;upd investigation;
+
+punch-in;2021-11-23 18:52:10;punch-out;2021-11-23 19:06:38;project;c#-network;description;udp program started;
+
+punch-in;2021-11-24 12:09:35;punch-out;2021-11-24 13:36:08;project;c#-network;description;udp work;
+
+punch-in;2021-11-24 15:00:00;punch-out;2021-11-24 16:00:00;project;c#-network;description;udp work;
+
+punch-in;2021-11-24 18:50:31;punch-out;2021-11-24 21:39:40;project;c#-network;description;udp work. It seams the server has to run on just 1 udp client......;
+
+punch-in;2021-11-25 17:00:00;punch-out;2021-11-25 18:12:00;project;c#-network;description;upd program almost finished, will implement in monogame soon;
+
+punch-in;2021-11-25 19:15:46;punch-out;2021-11-25 20:43:05;project;c#-network;description;udp goin into my monogame project;
+
+punch-in;2021-11-26 15:22:03;punch-out;2021-11-26 16:42:40;project;c#-network;description;ships sent via UDP still lags...must solve..;
+
+punch-in;2021-11-26 19:11:13;punch-out;2021-11-26 20:53:18;project;c#-network;description;lag fixed. game freezes sometimes;
+
+punch-in;2021-11-27 11:36:20;punch-out;2021-11-27 13:19:30;project;c#-network;description;seams to be working...chat stops working after long run I noticed;
+
+punch-in;2021-11-27 13:26:19;punch-out;2021-11-27 13:28:49;project;c#-network;description;chat bugfix;
+
+punch-in;2021-11-27 18:56:05;punch-out;2021-11-27 20:04:36;project;c#-network;description;testing mostly;
+
+punch-in;2021-12-02 20:43:39;punch-out;2021-12-02 21:51:39;project;c#-network;description;testing. thinking about next program version;
+
+punch-in;2021-12-02 22:20:05;punch-out;2021-12-02 22:55:01;project;c#-network;description;file-transfer-test;
+
+punch-in;2021-12-03 16:36:16;punch-out;2021-12-03 17:43:36;project;c#-network;description;ship sendlogic updated.;
+
+punch-in;2021-12-03 19:11:26;punch-out;2021-12-03 20:29:49;project;c#-network;description;version 10 on its way. creating space. trying ondemand tcpsockets connect. UDP for critical stuff;
+
+punch-in;2021-12-04 18:10:43;punch-out;2021-12-04 20:41:35;project;c#-network;description;new way of filtering TCP data. Configuration contains static lists now. Programming game world tomorrow;
+
+punch-in;2021-12-06 18:50:14;punch-out;2021-12-06 21:22:20;project;c#-network;description;writing parsestuff serverside + creating new game world that is gonna send.;
+
+punch-in;2021-12-06 22:00:35;punch-out;2021-12-06 23:09:56;project;c#-network;description;new map created, populated with asteroids. Implementing camera tomorrow...;
+
+punch-in;2021-12-07 18:59:51;punch-out;2021-12-07 19:58:21;project;c#-network;description;monogame camera test succcessfull;
+
+punch-in;2021-12-07 20:41:53;punch-out;2021-12-07 21:48:34;project;c#-network;description;camera implemented in server/client program WITH rendertarget = looks great;
+
+punch-in;2021-12-07 21:59:55;punch-out;2021-12-07 22:33:33;project;c#-network;description;camera attached to spaceship. Thinkin about next step. better background i think;
+
+punch-in;2021-12-08 16:00:00;punch-out;2021-12-08 17:00:00;project;c#-network;description;adding a parallax effect to the example game;
+
+punch-in;2021-12-08 19:09:05;punch-out;2021-12-08 21:09:10;project;c#-network;description;doin parallax;
+
+punch-in;2021-12-08 21:24:12;punch-out;2021-12-08 22:15:48;project;c#-network;description;parallax effect almost taking to much time;
+
+punch-in;2021-12-08 22:51:19;punch-out;2021-12-08 23:14:35;project;c#-network;description;ger upp för idag;
+
+punch-in;2021-12-09 09:00:00;punch-out;2021-12-09 11:00:00;project;c#-network;description;paralax finally working like I want (almost). Repeat in Y-axis left.;
+
+punch-in;2021-12-09 17:55:05;punch-out;2021-12-09 19:13:02;project;c#-network;description;parallax almost finished (fingers crossed);
+
+punch-in;2021-12-09 19:31:54;punch-out;2021-12-09 20:07:10;project;c#-network;description;almost there;
+
+punch-in;2021-12-09 20:13:30;punch-out;2021-12-09 20:43:40;project;c#-network;description;almost;
+
+punch-in;2021-12-09 20:13:30;punch-out;2021-12-10 00:48:12;project;c#-network;description;ye its done now, 1 bug to fix but can wait;
+
+punch-in;2021-12-10 18:30:00;punch-out;2021-12-10 19:00:00;project;c#-network;description;paralax soon done;
+
+punch-in;2021-12-10 20:32:38;punch-out;2021-12-10 21:20:00;project;c#-network;description;..;
+
+punch-in;2021-12-10 21:33:48;punch-out;2021-12-10 23:06:35;project;c#-network;description;THERE it is FINISHED the parallax scrolling works perfectly in X,Y with multiple layers and settings;
+
+punch-in;2021-12-11 21:18:34;punch-out;2021-12-11 21:43:01;project;c#-network;description;parallax stuff -> monogame net prog;
+
+punch-in;2021-12-11 21:18:34;punch-out;2021-12-11 22:45:10;project;c#-network;description;tuning new content in game. world map working now;
+
+punch-in;2021-12-12 21:13:27;punch-out;2021-12-12 23:47:33;project;c#-network;description;chat + privatechat fixed in v10, also PRIVATECHAT BUG FINALLY GONE FOREVER. disconnect bug will fix tomorrow. ;
+
+punch-in;2021-12-13 17:32:40;punch-out;2021-12-13 17:54:32;project;c#-network;description;updateing asteroids spawn;
+
+punch-in;2021-12-13 19:46:05;punch-out;2021-12-13 20:26:00;project;c#-network;description;maintanance;
+
+punch-in;2021-12-13 22:37:34;punch-out;2021-12-13 23:37:14;project;c#-network;description;new asteroid spawn;
+
+punch-in;2021-12-18 19:44:24;punch-out;2021-12-18 20:27:36;project;c#-network;description;asteroid trajectory;
+
+punch-in;2021-12-20 17:14:30;punch-out;2021-12-20 20:27:05;project;c#-network;description;asteroid positions on infinite map;
+
+punch-in;2021-12-20 22:55:34;punch-out;2021-12-21 00:06:16;project;c#-network;description;asteroids spawn;
+
+punch-in;2021-12-21 18:30:00;punch-out;2021-12-21 22:51:00;project;c#-network;description;asteroids spawn completely changed, sent over UDP, spawn on ship position;
+
+punch-in;2021-12-22 09:47:14;punch-out;2021-12-22 11:04:44;project;c#-network;description;laser introduced. Will try to send over TCP next :) :);
+
+punch-in;2021-12-22 20:27:56;punch-out;2021-12-23 00:01:20;project;c#-network;description;laser over TCP works! + new ship design with spritesheet;
+
+punch-in;2021-12-23 18:12:27;punch-out;2021-12-23 21:24:28;project;c#-network;description;shots in their own channel. explosions added. asteroids health added. next: delete from program;
+
+punch-in;2021-12-24 19:09:55;punch-out;2021-12-24 19:10:06;project;c#-network;description;misstake;
+
+punch-in;2021-12-24 16:00:00;punch-out;2021-12-24 18:00:00;project;c#-network;description;lasershots removed in serverparse, asteroids die, asteroids are also tuned now;
+
+punch-in;2021-12-25 18:08:36;punch-out;2021-12-25 20:54:17;project;c#-network;description;bug when asteroids die fixed. Spritesheet when they die. Sound when they die implemented.;
+
+punch-in;2021-12-27 12:45:00;punch-out;2021-12-27 15:32:03;project;c#-network;description;radar implemented = works!;
+
+punch-in;2021-12-27 15:33:59;punch-out;2021-12-27 16:28:56;project;c#-network;description;redoing PARALLAX it has bugs;
+
+punch-in;2021-12-27 19:14:03;punch-out;2021-12-27 22:14:10;project;c#-network;description;parallax redone = WORKS VERY NICELY;
+
+punch-in;2021-12-28 11:02:16;punch-out;2021-12-28 14:09:48;project;presentation;description;creating presentation;
+
+punch-in;2021-12-28 21:39:13;punch-out;2021-12-28 22:17:12;project;presentation;description;presentation work;
+
+punch-in;2021-12-29 12:50:31;punch-out;2021-12-29 15:24:51;project;c#-network;description;healthbar + networkUsername displays ontop of ship now :);
+
+punch-in;2021-12-29 19:35:17;punch-out;2021-12-29 20:31:47;project;presentation;description;improved presentation, took notes on slides, tried presenting. 11min presentation! ((to much));
+
+punch-in;2021-12-29 20:32:27;punch-out;2021-12-29 22:00:47;project;c#-network;description;reset when overstepping game-boundaries, ships take damage, ships die, explosions when ships take damage.;
+
+punch-in;2021-12-30 18:23:38;punch-out;2021-12-30 19:42:55;project;presentation;description;changed slides, prepared for oral examination;
+
+punch-in;2021-12-30 19:43:36;punch-out;2021-12-30 20:30:23;project;c#-network;description;score added;
+
+punch-in;2022-01-03 18:34:57;punch-out;2022-01-03 19:11:35;project;presentation;description;presentation preperation;
+
+punch-in;2022-01-04 10:38:09;punch-out;2022-01-04 12:20:37;project;presentation;description;förberedelse redovisning, redovisning + prat och planering med Mia;
+
+punch-in;2022-01-04 21:16:02;punch-out;2022-01-05 00:34:10;project;reflection;description;minor investigation + report written and polished;
+
+punch-in;2022-01-05 20:00:00;punch-out;2022-01-05 22:00:00;project;c#-network;description;investigating Lidgren solution for presentation + code cleanup;
+
+punch-in;2022-01-05 22:00:00;punch-out;2022-01-05 23:00:00;project;public-stamp-clock;description;bugfix (ANNOYING bug in program was fixed);
 
