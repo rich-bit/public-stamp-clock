@@ -11,9 +11,11 @@ namespace stamples
         int dataNotRead = 0;
         public Fileread()
         {
+
             List<String> myStringList = File.ReadAllLines(Settings.projectDirectory + "/stamp-clock.txt").ToList();
             myStringList.RemoveAll(s => string.IsNullOrWhiteSpace(s));//ty stackoverflow
             Settings.data = new List<StampleData>();
+
 
             foreach (string item in myStringList)
             {
@@ -24,7 +26,7 @@ namespace stamples
                     DateTime readPunchIn = Convert.ToDateTime(subs[0]);
                     DateTime readPunchOut = Convert.ToDateTime(subs[1]);
                     string readProject = subs[2];
-                    string readDescription = subs[3];                    
+                    string readDescription = subs[3];
 
                     Settings.data.Add(new StampleData(readPunchIn, readPunchOut, readProject, readDescription));
                 }
@@ -52,7 +54,7 @@ namespace stamples
             {
 
                 using (StreamWriter sw = File.AppendText(Settings.projectDirectory + "/stamp-clock.txt"))
-                {                    
+                {
                     sw.WriteLine($"punch-in;{Settings.currentPunchInTime};punch-out;{Settings.currentPunchOutTime};project;{Settings.currentProject};description;{Settings.currentDescription};\n");
                 }
             }
@@ -74,6 +76,7 @@ namespace stamples
                 System.Diagnostics.Debug.WriteLine(e.ToString());
             }
             File.Create(Settings.projectDirectory + "/stamp-clock.txt");
+            
         }
     }
 }

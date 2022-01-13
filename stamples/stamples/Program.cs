@@ -3,7 +3,7 @@
 namespace stamples
 {
     class Program
-    {        
+    {
         static void Main(string[] args)
         {
             bool runProgram = true;

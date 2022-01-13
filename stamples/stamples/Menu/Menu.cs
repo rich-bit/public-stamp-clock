@@ -109,10 +109,12 @@ namespace stamples
                     currentMenuState = MenuState.menu;
                     break;
                 case MenuState.reset:
-                    Console.Write("Warning: All data will be lost, are you sure? Y/N? ");
+                    Console.Write("Warning: All data will be lost and program will exit, are you sure? Y/N? ");
                     char anwser = Convert.ToChar(Console.ReadLine());
                     if (anwser == 'Y' || anwser == 'y')
-                    { new Fileread().ResetFile(); currentMenuState = MenuState.menu; }
+                    { new Fileread().ResetFile();
+                        draw = false;
+                        currentMenuState = MenuState.menu; }
                     else
                         currentMenuState = MenuState.menu;
                     break;
