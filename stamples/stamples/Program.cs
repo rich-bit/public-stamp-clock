@@ -8,7 +8,7 @@ namespace stamples
         {
             bool runProgram = true;
             MenuState currentMenustate = MenuState.menu;
-            Settings settings = new Settings();
+            //Settings settings = new Settings();
             new Settings();
 
             while (runProgram)
